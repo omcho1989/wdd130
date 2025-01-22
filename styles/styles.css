@@ -1,29 +1,30 @@
 :root {
-   --border: 2px rgb(87, 85, 85);
+   --border: 2px #575555;
    --padding: 2rem;
    --width: 200px;
    --height: 200px;
-   --background-color: darkred;   
+   --background-color: #08cc28;
+   --color: #0f1ccf;   
 }
 
 
 nav {
-    background-color: aqua;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--padding)
 }
 nav a {
-    color: orange;
+    color: var(--color);
     display: block;
     padding: 20px;
 }
 h1 {
-    color: lightgreen;
+    color: var(--color);
 
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px slategray;
+    border: var(--border) var(--background-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -36,12 +37,12 @@ main {
 }
 
 aside {
-    width: 40rem;
+    width: var(--width);
     margin: 2rem;
-    border: 5rem;
-    padding: 5rem;
-    background-color: blanchedalmond;
-    color: black;
+    border: var(--border);
+    padding: var(--padding);
+    background-color: var(--background-color);
+    color: var(--color);
     text-align: left;
 }
 
