@@ -1,5 +1,9 @@
 :root {
-    
+   --border: 2px rgb(87, 85, 85);
+   --padding: 2rem;
+   --width: 200px;
+   --height: 200px;
+   --background-color: darkred;   
 }
 
 
