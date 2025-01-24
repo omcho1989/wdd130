@@ -1,15 +1,61 @@
+:root {
+    background-color: #9494f3;
+}
+
 header {
+    padding: 0%
+}
+
+.headline {
+    position: relative;
+    top: 0rem;
+    left: 28rem;
+}
+
+.mainbackground {
+    padding: 0%;
+    width: 100%;
+    height: auto;
+}
+
+.dryoar {
+    position: relative;
+    top: 6rem;
 
 }
+
+.Logo-Box {
+    position: relative;
+    top:24px;
+    left: 20rem;
+}
+
+.home {
+
+}
+
+.trips {
+
+}
+
+.aboutus {
+
+}
+
+.contactus {
+
+}
+
+
 
 nav {
 
 }
 
 main {
-
+    text-shadow: 3rem 3rem 3rem
 }
 
 aside {
-    
+
 }

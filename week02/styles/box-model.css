@@ -1,5 +1,5 @@
 .callout {
-	max-width: 600;
+	max-width: 100;
     margin: 5px;
     border: 5px solid rgb (0 0 0 / 0.1);
     padding: 5px;
@@ -9,8 +9,8 @@
 
 .callout img {
     float: right;
-    margin: 10px 12px;
-    border: 5px 7p solid black;
+    margin: 10px 20px;
+    border: 20px 7p solid black;
     padding: 4px solid grey;
     background-color: rgb(16, 63, 63);
     width: 150px;
