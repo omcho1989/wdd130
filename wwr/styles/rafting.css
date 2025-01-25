@@ -1,0 +1,43 @@
+:root {
+    --color1: #546a7b;
+    --color2: #0d1f2d;
+    --color3: #9ea3b0;
+    --color4: #fae1df;
+}
+
+p {
+    color: var(--color1);
+    text-decoration-color: var(--color1);
+    text-shadow: color #040b10;
+    
+
+}
+
+h1 {
+    color: var(--color2);
+    text-decoration-color: var(--color2);
+    position: absolute;
+}
+
+h2 {
+    color: var(--color2);
+    text-decoration-color: var(--color2);
+}
+
+.social_media {
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+article {
+
+}
+
+.happy {
+    float: right;
+}
