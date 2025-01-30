@@ -5,5 +5,89 @@ Box Model
             Padding
                 'Insert Picture' (content)
                 
+CSS Tips
+
+/*pond {
+    display: flex;
+}
+
+flex-direction:
+    row
+    row-reverse
+    column
+    column-reverse
+
+align-items and align-self:
+    flex-start
+    flex-end
+    center
+    baseline
+    stretch
+
+justify-content:
+    flex-start
+    flex-end
+    center
+    space-between
+    space-around
+
+order:
+    1
+    2
+    0
+    -1
+    -2
+
+display:flex;
+flex-direction: column (example)
+
+flex-wrap:
+    nowrap
+    wrap
+    wrap-reverse
+
+flex-flow: (combination of 'flex-direction' and 'flex-wrap')
+    row wrap
+    column wrap
+    ...
+
+align-content:
+    flex-start
+    flex-end
+    center
+    space-between
+    space-around
+    stretch
+
+CSS Grid Tips
+
+grid-column-start / grid-column-end:
+    3
+    5
+    etc
+
+grid-column: ''/''
+
+grid-row-start: 1, 2, 3, 4, 5 etc
+
+grid-area: 1/1/3/6 for ex.
+
+grid-template-columns: repeat(5, 50%)
+
+grid-template-columns: 100px 3em 30% example
+
+fr (Each 'fr' unit allocates one share of the available space)
+    example: grid-template-columns: 1fr 5fr
+
+grid-template: (combines both 'grid-template-rows' and 'grid-template-columns')
+    example: grid-template: 60% 60% 60% / 200px
+
+
+You can use centering with flex and grid
+    display: flex; * or grid *
+    justify-content: center;
+    align-items: center;
+
+place-items: center;
 
 

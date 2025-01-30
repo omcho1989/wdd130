@@ -5,10 +5,15 @@
     --color4: #fae1df;
 }
 
+header {
+    display: grid;
+
+}
+
 p {
     color: var(--color1);
     text-decoration-color: var(--color1);
-    text-shadow: color #040b10;
+    
     
 
 }
@@ -46,3 +51,8 @@ h2 {
     float: right;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
