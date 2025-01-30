@@ -1,61 +1,52 @@
 :root {
-    background-color: #9494f3;
+    --color1: #546a7b;
+    --color2: #0d1f2d;
+    --color3: #9ea3b0;
+    --color4: #fae1df;
 }
 
 header {
-    padding: 0%
+    display: grid;
+
 }
 
-.headline {
-    position: relative;
-    top: 0rem;
-    left: 28rem;
+p {
+    color: var(--color1);
+    text-decoration-color: var(--color1);
+    
+    
+
 }
 
-.mainbackground {
-    padding: 0%;
+h1 {
+    color: var(--color2);
+    text-decoration-color: var(--color2);
+}
+
+h2 {
+    color: var(--color2);
+    text-decoration-color: var(--color2);
+}
+
+.social_media {
+    text-decoration: none;
+}
+
+.hero {
     width: 100%;
+    display: block;
     height: auto;
 }
 
-.dryoar {
-    position: relative;
-    top: 6rem;
+.hero div {
+    position: relative
 
 }
 
-.Logo-Box {
-    position: relative;
-    top:24px;
-    left: 20rem;
+.hero h1 {
+    position: absolute;
 }
 
-.home {
-
-}
-
-.trips {
-
-}
-
-.aboutus {
-
-}
-
-.contactus {
-
-}
-
-
-
-nav {
-
-}
-
-main {
-    text-shadow: 3rem 3rem 3rem
-}
-
-aside {
-
+.thing {
+    float: right;
 }

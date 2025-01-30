@@ -91,3 +91,17 @@ You can use centering with flex and grid
 place-items: center;
 
 
+.hero {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.hero div {
+    position: relative
+
+}
+
+.hero h1 {
+    position: absolute;
+}
