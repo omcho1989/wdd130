@@ -42,7 +42,7 @@ p {
     top: 2rem;
     left: 3rem;
     transform: translateX(100%);
-    color: var(var(--color5));
+    color: (var(--color5));
 }
 
 .hero article {
