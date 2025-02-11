@@ -83,3 +83,29 @@ footer {
 .social_media img{
     width: 4em;    
 }
+
+.contactus h1 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+}
+
+.contactform {
+    grid-row: 2/4;
+    grid-column: 2/6;
+}
+
+.address {
+    grid-column: 7/12;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+}
+
+.employees {
+    grid-column: 1/-1;
+}
+
+.employee {
+    margin: 0 auto;
+}
