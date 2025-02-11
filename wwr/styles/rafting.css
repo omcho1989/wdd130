@@ -1,3 +1,4 @@
+/*Root colors, predefined variables*/
 :root {
     --color1: #546a7b;
     --color2: #0d1f2d;
@@ -7,36 +8,39 @@
     --head_font: Nunito Sans, serif;
     --para_font: Nunito, serif;
 }
-
+/*This is editing the body of the CSS */
 body {
     font-family: var(--head_font);
     background-color: var(--color1);
 }
-
+/*Modifying all the 'h' variables */
 h1, h2, h3, h4, h5, h6 {
     color: var(--color2);
     text-decoration-color: var(--color2);
 }
-
+/*attributes (remove underline) */
 a {
     text-decoration: none;
 }
-
+/*Modifying the entire page with grid layout */
 header, main, footer {
-    max-width: 1200px;
+    display: grid;
+
+    max-width: 1400px;
     margin: 0 auto;
 }
-
+/*Moves and modifying my hero image with objects in it */
 .hero {
     position: relative;
+    top: 1rem;
 }
-
+/*Modifies my History paragraph text. */
 p {
     color: var(--color5);
     text-decoration-color: var(--color5);
     font-size: x-large;
 }
-
+/*This modifies my 'The White Water Rapids' text and position. */
 .hero h1 {
     position: absolute;
     top: 2rem;
@@ -44,29 +48,24 @@ p {
     transform: translateX(100%);
     color: var(--color5);
 }
-
+/*This modifies the position and background of the picture thats overlayed on my hero image */
 .hero article {
     background-color: #ffffff61;
     position: absolute;
-    top: 16rem;
+    top: 12rem;
     left: 2rem;
 }
-
+/*This is telling that same image from before what side of the text to be on. */
 .hero article img {
-    float: right;
+    float: right; /* if you see this babe, try it with left and look for changes */
 }
-
+/*This is the 'History' name itself */
 .history h2 {
     max-width: 100%;
     color: var(--color5);
-    font-size: large;
+    font-size: x-large;
 }
-
-h2 {
-    color: var(--color2);
-    text-decoration-color: var(--color2);
-}
-
+/*This is how the bottom with the icons and your name and copy right is displayed */
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -75,12 +74,12 @@ footer {
     padding: 5rem;
     color: var(--color2)
 }
-
+/*This is the placement of your social media icons */
 .social_media {
     grid-column: 4;
     justify-self: end;
 }
-
+/*This is the size of the social media icons. */
 .social_media img{
     width: 4em;    
 }
