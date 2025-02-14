@@ -23,9 +23,40 @@ a {
     text-decoration: none;
 }
 /*Modifying the entire page with grid layout */
-header, main, footer {
+header {
     display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background-color: #1435d8;
+}
 
+nav {
+   display: flex;
+   justify-content: space-around;
+   padding: 1em;  
+}
+
+nav a:hover {
+    background-color: #48add8;
+    border-radius: .30em;
+    padding: 1em;
+    color: #1435d8;
+}
+
+nav a {
+    color: #fff;
+}
+
+img {
+   width: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header, main, footer {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -45,8 +76,10 @@ p {
     position: absolute;
     top: 2rem;
     left: 3rem;
-    transform: translateX(100%);
+    right: 3rem;
+    text-align: center;
     color: var(--color5);
+    background-color: #e3e3e37b;
 }
 /*This modifies the position and background of the picture thats overlayed on my hero image */
 .hero article {
@@ -54,17 +87,46 @@ p {
     position: absolute;
     top: 12rem;
     left: 2rem;
+    right: 2rem;
+    padding: 1em;
 }
 /*This is telling that same image from before what side of the text to be on. */
 .hero article img {
-    float: right; /* if you see this babe, try it with left and look for changes */
+    float: right;
+    width: 250px; 
 }
-/*This is the 'History' name itself */
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;    
+    gap: 1em;
+    padding: 0 1em 1em;
+}
+
 .history h2 {
     max-width: 100%;
     color: var(--color5);
     font-size: x-large;
+    grid-column: 1/4;
+    justify-self: center;
 }
+
+.adventure {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat (5, 1fr);
+    gap: 1em;
+} 
+
+.adventure h2 {
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
 /*This is how the bottom with the icons and your name and copy right is displayed */
 footer {
     display: grid;
