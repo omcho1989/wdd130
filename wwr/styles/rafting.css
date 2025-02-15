@@ -175,3 +175,54 @@ footer {
 .employee {
     margin: 0 auto;
 }
+/*This is the index.html index declarations.
+*/
+.home_main {
+
+}
+
+.home_main h1 {
+    transform: scaleY(2.65);
+    font-weight: 900;
+    color: #b0593e;
+    transform: rotate(-3deg) skewY(-10deg);
+    background-color: #ffffff00;
+    position: absolute;
+    top: 10rem; 
+    right: 32rem;
+    padding: 1em;
+    font-size: 3.5em;
+}
+
+.home_hero {
+    width: 100%;
+}
+
+.home_newsletter {
+
+}
+
+.home_main figure {
+    font-size: 2em;
+}
+
+.home_main submit {
+    
+}
+
+.home_trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    padding: 2em;
+}
+
+.home_trips img {
+    width: 4em;
+}
+
+.extra_img {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
