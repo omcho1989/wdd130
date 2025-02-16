@@ -283,3 +283,38 @@ footer {
     color: #d04920;
 }
 
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 2em;
+    grid-column: 1/-1;
+    background-color:#3a6976;
+}
+
+.trip h3 {
+    color: #b0593e;
+    background-color: #2b3034;
+    text-align: center;
+    border-radius: .30em;
+}
+
+.trip p {
+    color: #b0593e;
+    background-color: #2a4961;
+    border-radius: .30em;
+}
+
+.trip_details img {
+    border-radius: .30;
+}
+
+.trip_details h2 {
+    grid-column: 1/-1;
+    justify-self: center;
+    font-size: 3em;
+    background-color: #2b3034;
+    color: #b0593e;
+    border-radius: .30em;
+    padding: 1em;
+}
